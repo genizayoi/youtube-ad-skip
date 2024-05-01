@@ -12,7 +12,7 @@
     'use strict';
 
     function skipAd() {
-        var skipButton = document.querySelector('.ytp-skip-ad-button__text');
+        var skipButton = document.querySelector('.ytp-ad-skip-button-text');
         if (skipButton) {
             skipButton.click();
             console.log("Click button");
